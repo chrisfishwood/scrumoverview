@@ -47,7 +47,7 @@ Present a Scrum methodology that I used in a former life and list some of the pr
 Scrum is an iterative and incremental agile software development methodology for managing product development. It's similar to our current process, but with a few differences in flow and responsibility.  Let's check them out.
 
 
-![image](http://www.zenexmachina.com/assets/themes/zxm/images/page-artefacts/scrum-process-01.png =1000x400)
+![image](http://www.zenexmachina.com/assets/themes/zxm/images/page-artefacts/scrum-process-01.png)
 
 
 ### Sources:
@@ -80,3 +80,21 @@ Scrum is an iterative and incremental agile software development methodology for
   * SO/SM runs the sprint review with the client.  The team members demo the stories that they worked on.  This fosters accountability.
 
 -----------------------
+
+#Pros and Cons
+
+* Pros:
+  * Communication is increased between development and business.
+  * Goals are set at the beginning of a sprint and progress can be tracked via the project burndown, this means fewer surprises.
+  * Time is tracked by all ‘team’ parties, so, in time, we should develop a good idea of the team’s velocity across sprints.
+  * …this also has accounting benefits.
+  * The Team is empowered by having a say on what is in the Sprint Backlog and is encouraged to push back on deadlines.
+  * A planned approach forces you to finish dependencies in previous sprints (comps, spikes, etc.).
+
+* Cons:
+  * Additional diligence must be done but the SO (Brando) to make sure that Stories are impecibally defined with extremely terse Definitions of Done.
+  * Hotfixes can be very disruptive.
+  * Team morale can be more tumultuous (the accordion effect).
+  * Time tracking can lead to a ‘do it quick, not right’ attitude, which leads to technical debt.
+  * The team loses the freedom to self-prioritize chores for the greater good of the codebase.
+  * Less pairing means less leveling-up.
