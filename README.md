@@ -46,7 +46,6 @@ Present a Scrum methodology that I used in a former life and list some of the pr
 ### What is Scrum?
 Scrum is an iterative and incremental agile software development methodology for managing product development. It's similar to our current process, but with a few differences in flow and responsibility.  Let's check them out.
 
-
 ![image](http://www.zenexmachina.com/assets/themes/zxm/images/page-artefacts/scrum-process-01.png)
 
 
