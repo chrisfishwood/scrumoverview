@@ -62,36 +62,50 @@ A few well-known processes:
 
 ----
 
-* Waterfall
+:data-y: r750
+:data-x: r0
+:data-rotate-y: r90
+
+Waterfall
+================
+
+Notoriously crappy for software.
 
 ----
 
-* Spiral
+:data-rotate-y: r0
+
+Prototype
+=========
+
+Not so much a process itself, more of a technique within a process.
 
 ----
 
-* Spiral
+Spiral
+======
+
+Getting better, but not 'team focused'.
+
+(;´༎ຶД༎ຶ`)
 
 ----
 
-A few popular processes:
-========================
+:data-y: r1000
 
-* Waterfall
+The Agile family
+================
 
-* Spiral
+* Lean software
 
-* Prototype
+* eXtreme Programming
 
-* Agile
+* Scrum
 
-  * eXtreme Programming
+* KanBan
 
-  * Scrum
+* .... and many others
 
-  * KanBan
-
-  * Lean software
 
 .. note::
 
@@ -101,22 +115,14 @@ A few popular processes:
 
 ----
 
-:data-y: r1000
+:data-y: r0
+:data-x: r0
+:data-rotate-y: r90
+:data-scale: 1
 
-...pan...
-=========
-
-.. note::
-
-    If you have more notes than fit in the console, you can scroll down, but
-    more handily, you can scroll the text up by pressing space bar.
-
-----
-
-:data-rotate: 90
-
-...rotate...
-============
+Scrum
+===========
+An implementation that I have seen work (really well).
 
 .. note::
 
@@ -126,12 +132,15 @@ A few popular processes:
 
 ----
 
+:data-rotate-y: r0
 :data-x: r0
-:data-y: r500
-:data-scale: 0.1
+:data-y: r1000
 
-...and zoom!
-============
+The Scrum flow
+==============
+
+.. image:: scrum-process-01.png
+    :width: 1200px
 
 .. note::
 
@@ -140,40 +149,45 @@ A few popular processes:
 
 ----
 
-:data-x: r-800
-:data-scale: 1
-
-But Prezi is a GUI
-==================
-
-So we are back to square one.
-
-(And it is closed source to boot)
-
-.. note::
-
-    It's probably back to making bad jokes again.
+:data-x: r450
+:data-y: r50
+:data-scale: .6
 
 ----
 
-What about impress.js?
-======================
-
-It's open source!
-
-Supports pan, tilt and zoom!
-
+:data-y: r0
+:data-x: r-300
 
 ----
 
-:id: ThreeD
-:data-y: r1200
-:data-rotate-x: 180
+:data-y: r0
 
-In three dimensions!
-====================
+----
 
-*But...*
+:data-scale: .5
+:data-y: r-200
+:data-x: r50
+
+----
+
+:data-scale: .6
+:data-y: r200
+:data-x: r-50
+
+----
+
+:data-y: r0
+:data-x: r-250
+
+----
+
+:data-x: r-1000
+:data-y: r0
+
+*Backlogs? Iterations?  Don't we already do that?*
+==================================================
+
+Yes, but Scrum provides some additional characteristics that changes how we develop software... and how we communicate to 'the client'.
 
 .. note::
 
@@ -181,146 +195,96 @@ In three dimensions!
 
 ----
 
-
-It's HTML...
-============
-
-Not a friendly format to edit
-
-----
-
-:data-x: r800
-
-...and manual positioning
-=========================
-
-So inserting a slide means
-
-repositioning all the following slides!
-
-
-.. note::
-
-    The endless repositioning of slides is what prompted me to write
-    Hovercraft! in the first place.
-
-----
-
-:id: thequestion
+:data-y: r500
 :data-x: r0
-:data-y: r-1200
 
-*Is there no solution?*
-=======================
-
-Of course there is!
+Let's take a look....
+=====================
 
 .. note::
 
-    What would be the point of this slide show if I didn't have a solution?
-    Duh!
+    Wow! 3D! You didn't see that one coming, did you?
 
 ----
 
-:data-rotate-y: 180
-:data-scale: 3
-:data-x: r-2500
-:data-y: r0
+:data-scale: .4
+:data-x: r1400
+:data-y: r-100
+:data-z: r-1000
 
-Introducing **Hovercraft!**
-===========================
+* Iterations are capacity-based.
+* Development goals are set on a sprint-by-sprint basis.
+* Once a sprint has started, the sprint backlog should not be changed.
+* Releases are done at the end of an iteration (if approved).
 
 .. note::
 
-    TADA!
+    Wow! 3D! You didn't see that one coming, did you?
 
 ----
 
-:data-x: r-3000
 :data-scale: 1
+:data-x: r1200
+:data-y: r-200
+:data-z: r0
+:data-rotate-z: r-90
 
-reStructuredText
-----------------
-
-plus
-....
-
-impress.js
-----------
-
-plus
-....
-
-impressConsole.js
------------------
-
-plus
-....
-
-positioning!
-------------
-
-----
-
-:data-y: r-1200
-
-Position slides
-===============
-
-* Automatically!
-* Absolutely!
-* Relative to the previous slide!
-* Along an SVG path!
-
+Ok, that's not *too* much different than what we are doing.
+===========================================================
+LET'S GO FOR IT!
+================
 
 .. note::
 
-    That SVG path support was a lot of work. And all I used it for was to
-    position the slides in circles.
+    Wow! 3D! You didn't see that one coming, did you?
+
 
 ----
 
-Presenter console!
-==================
+:data-scale: 1
+:data-x: r0
+:data-y: r0
+:data-z: r0
+:data-rotate-y: r90
 
-* A view of the current slide
-* A view of the next slide
-* Your notes
-* A clock
-* A timer
+Here are a few things to consider.
+==================================
 
 .. note::
 
-    You found the presenter console already!
+    Wow! 3D! You didn't see that one coming, did you?
 
 ----
 
-**Hovercraft!**
-===============
+:data-x: r-400
+:data-y: r1500
+:data-rotate-x: r0
+:data-rotate-y: r0
+:data-rotate-z: r0
 
-.. image:: images/hovercraft_logo.png
-
-The merge of convenience and cool!
-
-.. note::
-
-    A slogan: The ad-mans best friend!
+Pros
+====
+* Communication is increased between development and business.
+* Goals are set at the beginning of a sprint and progress can be tracked via the project burndown, this means fewer surprises.
+* Time is tracked by all ‘team’ parties, so, in time, we should develop a good idea of the team’s velocity across sprints.
+* …this also has accounting benefits.
+* The Team is empowered by having a say on what is in the Sprint Backlog and is encouraged to push back on deadlines.
+* A planned approach forces you to finish dependencies in previous sprints (comps, spikes, etc.).
 
 ----
 
-:data-x: 0
-:data-y: 2500
-:data-z: 4000
-:data-rotate-x: 90
+:data-x: r0
+:data-y: r1200
 
-**Hovercraft!**
-===============
-
-On Github:
-
-https://github.com/regebro/hovercraft
+Cons
+====
+* Additional diligence must be done but the SO (Brando) to make sure that Stories are impecibally defined with extremely terse Definitions of Done.
+* Hotfixes can be very disruptive.
+* Team morale can be more tumultuous (the accordion effect).
+* Time tracking can lead to a ‘do it quick, not right’ attitude, which leads to technical debt.
+* The team loses the freedom to self-prioritize chores for the greater good of the codebase.
+* Less pairing means less leveling-up.
 
 .. note::
 
-    Fork and contribute!
-
+    Wow! 3D! You didn't see that one coming, did you?
