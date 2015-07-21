@@ -6,6 +6,10 @@ body {
     font-family: Libre Baskerville;
 }
 
+.step {
+    width: 1200px;
+}
+
 p {
     font-size: 125%;
     font-weight: normal;
@@ -50,9 +54,20 @@ a {
     color: black;
 }
 
-#ThreeD H1 {
-    font-family: Racing Sans One;
-    font-size: 300%;
+#step-11 a{
+    font-size: 10pt;
+}
+
+#step-14 ul{
+  padding-top: 400px;
+}
+
+#step-17 ul{
+  font-size: 80%;
+}
+
+#step-18 ul{
+  font-size: 80%;
 }
 
 #thequestion p {
