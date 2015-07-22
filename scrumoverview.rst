@@ -203,3 +203,13 @@ Cons
 * Minimize sprint backlog churn.
 * Time tracking is for team growth, not accountability.
 
+----
+
+:data-x: r0
+:data-y: r1200
+
+Thanks!
+=======
+
+https://github.com/chrisfishwood/scrumoverview
+
